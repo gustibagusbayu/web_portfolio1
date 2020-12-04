@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- glide -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.min.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Padlabs</title>
+</head>
+<body>
+    <!-- header -->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">PADLABS</a>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x' ></i>
+                </div>
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    <!-- <li class="nav__item">
+                        <input type="checkbox" id="switch" name="theme"><label for="switch">Toggle</label>
+                    </li> -->
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- main -->
+    <main class="l-main">
+        <!-- home -->
+        <section class="home" id="home">
+            <div class="home__container bd-grid">
+                <div class="home__img">
+                    <img src="img/avatar.jpg" class="moved" data-speed="3" alt="avatar">
+                </div>
+                <div class="home__desc">
+                    <p class="home__greating">HELLO</p>
+                    <h1 class="home__title">I'M BAYU ADI PRAMANA</h1>
+                    <p class="home__description">If you want ask something about me, just contact me on my social media bellow</p>
+                    <div class="home__contact">
+                        <a href="https://instagram.com/gustibagusbayu"><img src="img/dark-ig.png" class="home__icon" data-speed="3" alt="ig"></a>
+                        <a href="https://www.linkedin.com/in/bayu-adi-pramana-068853198"><img src="img/dark-in.png" class="home__icon" data-speed="3" alt="linkedin"></a>
+                        <a href="https://github.com/gustibagusbayu"><img src="img/dark-git.png" class="home__icon" data-speed="3" alt="github"></a>
+                        <a href="https://medium.com/@gustibgsbayu"><img src="img/dark-med.png" class="home__icon" data-speed="3" alt="medium "></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- about -->
+        <section class="about" id="about">
+            <div class="about__container bd-grid" id="about-container">
+                <div class="about__desc">
+                    <h1 class="about__title">About Me</h1>
+                    <p class="about__description">I am a student of the Informatics Department at one Higher Education in Bali. This website is intended for display only my portfolio.</p>
+                </div>
+                <div class="about__img">
+                    <img src="img/about.jpg" alt="about__img">
+                </div>
+            </div>
+        </section>
+
+        <!-- skills -->
+        <section class="skills" id="skills">
+            <div class="skills__container bd-grid" id="skills-container">
+                <div class="skills__img">
+                    <h2 class="skills__desc">PROGRAMMING</h2>
+                    <img src="img/html-5.svg" class="skills__code" alt="html">
+                    <img src="img/css-5.svg" class="skills__code" alt="css">
+                    <img src="img/php-1.svg" class="skills__code" alt="php">
+                    <img src="img/javascript.svg" class="skills__code" alt="javascript">
+                    <img src="img/python-5.svg" class="skills__code" alt="python">
+                    <img src="img/codeigniter.svg" class="skills__code" alt="codeigniter">
+                    <img src="img/bootstrap-4.svg" class="skills__code" alt="bootstrap">
+                    <img src="img/mysql.svg" class="skills__code" alt="mysql">
+                    <h2 class="skills__desc">DESIGN</h2>
+                    <img src="img/adobe-illustrator-cc-2019.svg" class="skills__design" alt="illustrator">
+                    <img src="img/adobe-photoshop-cs6.svg" class="skills__design" alt="photoshop">
+                    <img src="img/figma.png" class="skills__design" alt="figma">
+                </div>
+                <div class="skills__side">
+                    <h1 class="skills__title">SKILLS</h1>
+                    <p class="skills__description">Here are a few skills which I'm good at</p>
+                    <img src="img/bar.png" alt="" class="bar">
+                </div>
+            </div>
+        </section>
+
+        <!-- portfolio -->
+        <section class="portfolio" id="portfolio">
+            <div class="portfolio__container bd-grid" id="portfolio-container">
+                <div class="portfolio__desc">
+                    <h1 class="portfolio__title">Portfolio</h1>
+                    <p class="portfolio__description">This is my chosen portfolio in exploration of web based coding and logo design as well as UI Design</p>
+                </div>
+                <div class="portfolio__img">
+                    <div class="glide">
+                        <div class="glide__track" data-glide-el="track">
+                            <ul class="glide__slides">
+                                <li class="glide__slide"><img src="img/landingpage.png" alt="landingpage"></li>
+                                <li class="glide__slide"><img src="img/cekginjal.png" alt="cekginjal"></li>
+                                <li class="glide__slide"><img src="img/uimobile.png" alt="uimobile"></li>
+                                <li class="glide__slide"><img src="img/uidesign.png" alt="uidesign"></li>
+                                <li class="glide__slide"><img src="img/logodesign.png" alt="logodesign"></li>
+                            </ul>
+                        </div>
+                        <div class="glide__arrows" data-glide-el="controls">
+                            <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><i class="fa fa-angle-left"></i></button>
+                            <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><i class="fa fa-angle-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="l-footer">
+        <section class="contact" id="contact">
+            <div class="contact__container bd-grid" id="contact-container">
+                <div class="contact__desc">
+                    <h1 class="contact__title">CONTACT ME</h1>
+                    <p class="contact__description">Thank you for visiting the website, if anything who want to be asked please contact me at the following contact <br> <span class="contact__span">Email: gustibgsbayu@gmail.com</span> </p>
+                    <a href="https://instagram.com/gustibagusbayu"><img src="img/ig.png" class="contact__icon" data-speed="3" alt="ig"></a>
+                    <a href="https://www.linkedin.com/in/bayu-adi-pramana-068853198"><img src="img/linkedin.png" class="contact__icon" data-speed="3" alt="linkedin"></a>
+                    <a href="https://github.com/gustibagusbayu"><img src="img/github.png" class="contact__icon" data-speed="3" alt="github"></a>
+                    <a href="https://medium.com/@gustibgsbayu"><img src="img/medium.png" class="contact__icon" data-speed="3" alt="medium "></a>
+                    <p class="contact__copyright">padlabs &copy; 2020</p>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+
+    <!-- gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+    <!-- glide -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+    <!-- main js -->
+    <script src="main.js"></script>
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</body>
+</html>
